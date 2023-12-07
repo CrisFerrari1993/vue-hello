@@ -20,3 +20,14 @@
         background-image: url(https:coreui.io/vue/docs/images/vue.jpg);
         background-size: cover;
     }
+    /* div container */
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0,0,0,0.1);
+        border-radius: 1rem;
+        padding: 2rem;
+        text-align: center;
+    }
