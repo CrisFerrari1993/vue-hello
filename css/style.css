@@ -1,0 +1,22 @@
+/*****************************
+    GENERAL PAGE RULES
+******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*****************************
+    MAIN PAGE RULES
+******************************/
+/* Wrapper and sons rules */
+    #wrapper {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-image: url(https:coreui.io/vue/docs/images/vue.jpg);
+        background-size: cover;
+    }
