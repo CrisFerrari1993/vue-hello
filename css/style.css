@@ -19,6 +19,7 @@
         position: relative;
         background-image: url(https:coreui.io/vue/docs/images/vue.jpg);
         background-size: cover;
+        padding: 2rem 0;
     }
     /* div container */
     .container {
@@ -30,4 +31,28 @@
         border-radius: 1rem;
         padding: 2rem;
         text-align: center;
+    }
+
+/*****************************
+   STYLE ELEMENTS RULES
+******************************/
+/* Wrapper and sons rules */
+    #wrapper button {
+        display: block;
+        margin: 0 auto;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    /* white text color for vue classes */
+    .white{
+        color: white;
+        margin: 1rem 0;
+        font-weight: 600;
+    }
+/* hidden and active class*/
+    .active {
+        display: block;
+    }
+    .hidden {
+        display : none;
     }

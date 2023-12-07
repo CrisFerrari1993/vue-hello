@@ -14,20 +14,20 @@
         <!-- Div #app -->
         <div id="app">
             <!-- Button for hide and show elements -->
-            <button>{{buttonContent}}</button>
+            <button @click="changeDisplay">{{buttonContent}}</button>
             <!-- hide/active container -->
-            <div :class="mieClassi">
+            <div :class="miaClasse">
                 <!-- position absolute container -->
                 <div class="container">
                     <!-- Vue's Founder img -->
-                    <img src="" alt="">
+                    <img :src='immagine' :alt="altImmagine">
                     <!-- Exercise h1 title -->
-                    <h1>
-
+                    <h1 :class="classeColor">
+                        {{text}}
                     </h1>
                     <!-- Optional paragraph -->
-                    <p>
-
+                    <p :class="classeColor">
+                       {{paragraphText}} 
                     </p>
                 </div>
             </div>
