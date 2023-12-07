@@ -9,6 +9,8 @@ createApp ({
         return {
             text : 'Hello Word!!!',
             paragraphText : 'Hi everyone, this is my first vue exercise',
+            //Bonus:
+            //Aggiungere alla pagina un’immagine, presa anch’essa da un data.
             immagine: 'https://cdn-media-1.freecodecamp.org/images/0*xkJgg-6HskYrQ3N7.jpeg',
             altImmagine : 'Evan You',
             buttonContent : 'Click to Show you more...',
@@ -31,5 +33,3 @@ createApp ({
         }
     }
 }).mount('#app');
-//Bonus:
-//Aggiungere alla pagina un’immagine, presa anch’essa da un data.
