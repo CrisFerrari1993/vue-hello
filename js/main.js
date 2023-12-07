@@ -6,7 +6,11 @@ const { createApp } = Vue;
 createApp ({
     data() {
         return {
-            
+            text : 'Hello Word!!!',
+            immagine: 'https://cdn-media-1.freecodecamp.org/images/0*xkJgg-6HskYrQ3N7.jpeg',
+            altImmagine : 'Evan You',
+            buttonContent : 'Click to Show you something...',
+            mieClassi : 'hidden'
         }
     }
 }).mount('#app');
